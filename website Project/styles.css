@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-container {
+    width: 300px;
+    border: 0 solid gray;
+    background-color: transparent;
+    backdrop-filter: blur(80px);
+    padding: 10px;
+    border-color: white;
+    border-radius: 10px ;
+    box-shadow: 5 5 5 black;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color:blue rgb(240, 239, 243);
+    font-size: 40px;
+  }
+  
+  .input-group {
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 0px 35px 0 45px;
+  }
+  
+  .input-group input {
+    width: 280px;
+    background: transparent;
+    padding: 9px;
+    padding-left: 10px;
+    color: rgb(15, 95, 42);
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+  }
+  
+  .input-group i{
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+  }
+
+  .input-group input::placeholder{
+    color: white;
+    font-size: small;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: hsl(235, 80%, 49%);
+  }
+
+  body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: hsl(0, 0%, 0%);
+  }
+  
+  .fpass a:hover{
+    text-decoration: underline;
+  }
+
+  .fpass a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .fpass {
+    text-align: right;
+    font-size: small;
+    padding-bottom: 20px ;
+  }
+
+  .regform{
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-size: small;
+  }
+  .regform a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .regform a:hover{
+    text-decoration: underline;
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    h2{
+      background-image: linear-gradient(to left, black, black,blue,red,red);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="login-container">
+    <form class="login-form" action="#" method="post">
+      <h2>Login</h2>
+      <div class="input-group">
+        <input type="text" id="username" maxlength="25" placeholder="User Name" name="username" required>
+        <i class='bx bxs-user'></i>
+        <hr>
+      </div>
+      <div class="input-group">
+        <input type="password" id="password" placeholder="Password" minlength="8" maxlength="10" name="password" required>
+        <i class='bx bxs-lock-alt'></i>
+        <hr>
+      </div>
+      <div class="fpass">
+        <a href="#" target="_blank" >forgot password?</a>
+      </div>
+      <div class="btn">
+          <button>Submit</button>
+      </div>
+      <div class="regform">
+        <p>Don't have an account?<a href="#" target="_blank"> Register</a></p>
+      </div>
+      
+    </form>
+  </div>
+</body>
+</html>
